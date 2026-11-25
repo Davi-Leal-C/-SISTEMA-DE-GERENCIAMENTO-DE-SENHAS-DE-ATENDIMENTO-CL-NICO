@@ -49,7 +49,7 @@ Certifique-se de ter um compilador C instalado em sua máquina (como o **GCC**).
      sistema_senhas.exe
      ```
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 * Linguagem **C**
 * Biblioteca padrão (`stdio.h`, `stdlib.h`, `locale.h`)
