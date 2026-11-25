@@ -3,7 +3,6 @@
 
 #define MAX 100 // Capacidade máxima de senhas por fila
 
-// Estrutura que representa uma fila (conceito FIFO)
 typedef struct {
     int senhas[MAX];
     int inicio;
@@ -11,7 +10,6 @@ typedef struct {
     int totalEmitidas;
 } Fila;
 
-// Protótipos das funções
 void inicializarFila(Fila *f);
 int exibirMenu();
 void emitirSenha(Fila *f, char prefixo, const char *nomeFila);
@@ -20,4 +18,4 @@ void consultarFilas(Fila urgente, Fila preferencial, Fila normal);
 void imprimirFilaIndividual(Fila f, char prefixo, const char *nomeFila);
 void mostrarQuantidade(Fila urgente, Fila preferencial, Fila normal);
 
-#endif // FILA_H
+#endif
